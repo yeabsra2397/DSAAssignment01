@@ -85,4 +85,5 @@ int main(){
     cout << "Total Sales Copy (by Auto key word): " << copyTotalSale << "\n";
     cout << "Helper Value (Decltype): " << copyOfInventory << "\n";
 
-    return 0;}
+    return 0;
+}
