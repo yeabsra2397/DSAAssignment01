@@ -20,7 +20,7 @@ int main(){
     if ( newInventory<10){
         inventoryStatus = "Low inventory";
     } else
-        inventoryStatus = "Sifficient";
+        inventoryStatus = "Sufficient";
 
     
     int directInitialisation = 5;
@@ -37,7 +37,7 @@ int main(){
 
     cout << "Enter product name: ";
     getline(cin, productName);
-    cout << "Enter product category \n Category 1: Electronics\n Category 2: Groceries \n Category 3: Clothing \n Category 4: Stationary   \n Category 5: Miscelaneous\n (enter between 1 and 5): ";
+    cout << "Enter product category \n Category 1: Electronics\n Category 2: Groceries \n Category 3: Clothing \n Category 4: Stationary   \n Category 5: Miscellaneous\n (enter between 1 and 5): ";
     cin >> productCategory;
     cout << "Enter initial inventory quantity: ";
     cin >> initialInventory;
@@ -87,3 +87,7 @@ int main(){
 
     return 0;
 }
+
+// I write this code exactly as the question instructs but it use variables before they get value from the user which
+// results these variables to have garbage value! We can debug it by putting the input accepting code before making 
+// calculations using them, i.e (input first, calculation later).
