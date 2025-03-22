@@ -65,7 +65,7 @@ int main(){
     }
 
     if (numOfItemSold >0){
-        for (int i = 1;i<=numOfItemSold;i++){
+        for (int i = 1; i <= numOfItemSold;i++){
             cout<<"Item " << i << ": " << "sold in price of "<< pricePerUnit<<"\n\n";
         }
     }
